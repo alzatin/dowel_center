@@ -8,7 +8,7 @@
     {
       "name": "holeDiameter",
       "ioValue": 0.5,
-      "currentEquation": ".5"
+      "currentEquation": "0.5"
     }
   ],
   "topLevel": true,
