@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "holeDiameter",
-      "ioValue": 0.5,
-      "currentEquation": "0.5"
+      "ioValue": 0.5
     }
   ],
   "topLevel": true,
@@ -198,7 +197,7 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.3416149068322981,
+      "y": 0.15384615384615385,
       "uniqueID": "id-275",
       "name": "holeDiameter"
     },
@@ -626,86 +625,6 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Molecule",
-      "x": 0.6404728789986092,
-      "y": 0.7080745341614907,
-      "uniqueID": "id-429",
-      "name": "Molecule",
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-431",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Circle",
-          "x": 0.44784422809457586,
-          "y": 0.6428571428571428,
-          "uniqueID": "id-433",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 10
-            }
-          ]
-        },
-        {
-          "atomType": "Extrude",
-          "x": 0.5486787204450626,
-          "y": 0.5807453416149069,
-          "uniqueID": "id-436",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 10
-            }
-          ]
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-433",
-          "ap2ID": "id-436"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-436",
-          "ap2ID": "id-431"
-        }
-      ],
-      "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Rectangle",
-      "x": 0.4728789986091794,
-      "y": 0.7919254658385093,
-      "uniqueID": "id-524",
-      "ioValues": [
-        {
-          "name": "x length",
-          "ioValue": 1,
-          "currentEquation": "1"
-        },
-        {
-          "name": "y length",
-          "ioValue": 10
-        }
-      ]
     }
   ],
   "allConnectors": [
