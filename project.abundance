@@ -106,8 +106,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.7301808066759388,
-      "y": 0.4472049689440994,
+      "x": 0.7253129346314325,
+      "y": 0.406832298136646,
       "uniqueID": "id-214",
       "ioValues": [
         {
@@ -167,7 +167,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "move-loft-circle-0.1-move-circle-0.005-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0.1],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0-0.5",
+            "geometry": "move-loft-circle-0.1-move-circle-0.005-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,0.1],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-0-0.55",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -217,8 +217,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5611961057023644,
-      "y": 0.19875776397515527,
+      "x": 0.5528511821974965,
+      "y": 0.20186335403726707,
       "uniqueID": "id-337",
       "ioValues": [
         {
@@ -235,7 +235,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0.5
+          "ioValue": 0.55,
+          "currentEquation": "0.55"
         }
       ]
     },
@@ -285,8 +286,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.433240611961057,
-      "y": 0.17391304347826086,
+      "x": 0.43532684283727396,
+      "y": 0.16459627329192547,
       "uniqueID": "id-296",
       "name": "Cone",
       "ioValues": [
